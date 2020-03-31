@@ -89,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
+
     public void signOut(){
       FirebaseAuth.getInstance().signOut();
     }
